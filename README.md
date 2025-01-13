@@ -5,7 +5,6 @@
 * 'git add fileName' - stage 'fileName' for commit
 * 'git commit -m "msg"' - commit staged changes with commit message
 
-
 ## Info commands
 * 'git status' - report status of working directory
 * 'git log' - list commit history of local repo
