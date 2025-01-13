@@ -15,4 +15,6 @@
 ## Branching Commands
 * 'git branch branchName' - create local branch 'branchName'
 * 'git checkout branchName' - switch to branch branchName
+* 'git checkout -b branchName' -create (if doesn't exist) 'branchName' and switch to it
+
 
