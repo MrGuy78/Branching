@@ -19,8 +19,9 @@ Example of common git commands. Also practice with branching/merging.
 * 'git checkout -b branchName' -create (if doesn't exist) 'branchName' and switch to it
 
 ## Remote Commands
-* 'git remote add alias repoUrl' - define 'alias' as shortcut
-
+* 'git remote add alias repoUrl' - define 'alias' as shortcut for 'repoUrl' (usally 'origin' for alias)
+* 'git push origin branchName' - push local commits to remote branch `branchName`
+* 'git pull origin branchName' - pull remote commits into local branch
 
 ## Workflow
 1. Pull latest remote main into local main
@@ -31,7 +32,7 @@ Example of common git commands. Also practice with branching/merging.
 
 1. Branch from updated local main
    ```
-	git checkout -b myBranch
+   git checkout -b myBranch
    ```
 1. Work in local branch, committing frequently.
 1. When ready to merge, pull remote 'main' into local branch (must commit first)
