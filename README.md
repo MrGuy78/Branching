@@ -5,10 +5,15 @@
 * 'git add fileName' - stage 'fileName' for commit
 * 'git commit -m "msg"' - commit staged changes with commit message
 
-
 ## Info commands
 * 'git status' - report status of working directory
 * 'git log' - list commit history of local repo
 * 'git log -- oneline' - list commit history (compact format)
 * 'git branch' - list local branches
+
+## Branching Commands
+* 'git branch branchName' - create local branch 'branchName'
+* 'git checkout branchName' - switch to branch branchName
+* 'git checkout -b branchName' -create (if doesn't exist) 'branchName' and switch to it
+
 
